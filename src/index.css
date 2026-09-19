@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-white text-neutral-900;
+  }
+
+  *, *::before, *::after {
+    letter-spacing: normal !important;
+  }
+
+  .uppercase,
+  .tracking-widest,
+  .tracking-wider,
+  .tracking-tightest,
+  .tracking-tight {
+    text-transform: none !important;
+    letter-spacing: 0 !important;
+  }
+}
+
+/* Custom editorial aesthetics */
+.editorial-title {
+  letter-spacing: -0.04em;
+  line-height: 1.05;
+}
+
+.subtle-glass {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+}
+
+.dark-glass {
+  background: rgba(17, 24, 39, 0.88);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+}
+
+/* Hide scrollbar for clean horizontal scrollers while retaining touch scrolling */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Aspect ratios for reels */
+.aspect-reel {
+  aspect-ratio: 9 / 16;
+}
+
+/* Animations */
+@keyframes pulseSubtle {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.6; }
+}
+
+.animate-pulse-subtle {
+  animation: pulseSubtle 2.5s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
