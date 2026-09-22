@@ -20,9 +20,8 @@ import { INITIAL_PLACES } from '../data/places';
 import { INITIAL_LOCALS } from '../data/locals';
 import { INITIAL_PLACE_REVIEWS, INITIAL_LOCAL_REVIEWS } from '../data/reviews';
 import { generateRoadmap, generateId } from '../data/roadmapGenerator';
-
+import { api } from '../lib/api';
 interface PlanRupeeContextType {
-  // Cities & Filters
   currentCity: City;
   setCurrentCity: (city: City) => void;
   
@@ -122,42 +121,19 @@ const PlanRupeeContext = createContext<PlanRupeeContextType | undefined>(undefin
 export const PlanRupeeProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
   const [currentCity, setCurrentCity] = useState<City>('Chandigarh');
 
-  // Load from localStorage or defaults
-  const [places, setPlaces] = useState<Place[]>(() => {
-    const saved = localStorage.getItem('planrupee_places');
-    return saved ? JSON.parse(saved) : INITIAL_PLACES;
-  });
+  const [places, setPlaces] = useState<Place[]>(INITIAL_PLACES);
 
-  const [locals, setLocals] = useState<Local[]>(() => {
-    const saved = localStorage.getItem('planrupee_locals');
-    return saved ? JSON.parse(saved) : INITIAL_LOCALS;
-  });
+  const [locals, setLocals] = useState<Local[]>(INITIAL_LOCALS);
 
-  const [placeReviews, setPlaceReviews] = useState<PlaceReview[]>(() => {
-    const saved = localStorage.getItem('planrupee_place_reviews');
-    return saved ? JSON.parse(saved) : INITIAL_PLACE_REVIEWS;
-  });
+  const [placeReviews, setPlaceReviews] = useState<PlaceReview[]>(INITIAL_PLACE_REVIEWS);
 
-  const [localReviews, setLocalReviews] = useState<LocalReview[]>(() => {
-    const saved = localStorage.getItem('planrupee_local_reviews');
-    return saved ? JSON.parse(saved) : INITIAL_LOCAL_REVIEWS;
-  });
+  const [localReviews, setLocalReviews] = useState<LocalReview[]>(INITIAL_LOCAL_REVIEWS);
 
-  const [savedPlaceIds, setSavedPlaceIds] = useState<string[]>(() => {
-    const saved = localStorage.getItem('planrupee_saved_places');
-    return saved ? JSON.parse(saved) : ['chd-rock-garden', 'chd-pal-dhaba'];
-  });
+  const [savedPlaceIds, setSavedPlaceIds] = useState<string[]>(['chd-rock-garden', 'chd-pal-dhaba']);
 
-  const [savedLocalIds, setSavedLocalIds] = useState<string[]>(() => {
-    const saved = localStorage.getItem('planrupee_saved_locals');
-    return saved ? JSON.parse(saved) : ['local-simran'];
-  });
+  const [savedLocalIds, setSavedLocalIds] = useState<string[]>(['local-simran']);
 
-  const [activeRoadmap, setActiveRoadmap] = useState<Roadmap | null>(() => {
-    const saved = localStorage.getItem('planrupee_active_roadmap');
-    if (saved) return JSON.parse(saved);
-    // Default 5-Day Chandigarh Roadmap matching requirement 1
-    return generateRoadmap({
+  const [activeRoadmap, setActiveRoadmap] = useState<Roadmap | null>(() => generateRoadmap({
       city: 'Chandigarh',
       arrivalDate: '2026-09-22',
       departureDate: '2026-09-26',
@@ -167,18 +143,11 @@ export const PlanRupeeProvider: React.FC<{ children: ReactNode }> = ({ children 
       budget: 'Moderate',
       moods: ['Food', 'Culture', 'Romantic'],
       interests: ['Food', 'Cafés', 'Heritage', 'Hidden Gems']
-    });
-  });
+    }));
 
-  const [myConsultations, setMyConsultations] = useState<ConsultationBooking[]>(() => {
-    const saved = localStorage.getItem('planrupee_consultations');
-    return saved ? JSON.parse(saved) : [];
-  });
+  const [myConsultations, setMyConsultations] = useState<ConsultationBooking[]>([]);
 
-  const [myConciergeRequests, setMyConciergeRequests] = useState<ConciergeRequest[]>(() => {
-    const saved = localStorage.getItem('planrupee_concierge_requests');
-    if (saved) return JSON.parse(saved);
-    return [
+  const [myConciergeRequests, setMyConciergeRequests] = useState<ConciergeRequest[]>([
       {
         id: 'cr-sample-1',
         category: 'Food',
@@ -212,8 +181,7 @@ export const PlanRupeeProvider: React.FC<{ children: ReactNode }> = ({ children 
           }
         ]
       }
-    ];
-  });
+  ]);
 
   // Modal States
   const [selectedLocalForModal, setSelectedLocalForModal] = useState<Local | null>(null);
@@ -227,56 +195,41 @@ export const PlanRupeeProvider: React.FC<{ children: ReactNode }> = ({ children 
   const [isConciergeModalOpen, setIsConciergeModalOpen] = useState<boolean>(false);
   const [conciergePreselectedCategory, setConciergePreselectedCategory] = useState<string | null>(null);
 
-  // Sync to localStorage
   useEffect(() => {
-    localStorage.setItem('planrupee_places', JSON.stringify(places));
-  }, [places]);
+    let mounted = true;
+    api.bootstrap().then(data => {
+      if (!mounted) return;
+      setPlaces(data.places);
+      setLocals(data.locals);
+      setPlaceReviews(data.placeReviews);
+      setLocalReviews(data.localReviews);
+      setSavedPlaceIds(data.savedPlaceIds);
+      setSavedLocalIds(data.savedLocalIds);
+      setActiveRoadmap(data.activeRoadmap);
+      if (data.activeRoadmap) setCurrentCity(data.activeRoadmap.city);
+      setMyConsultations(data.myConsultations);
+      setMyConciergeRequests(data.myConciergeRequests);
+    }).catch(error => console.error('Unable to load PlanRupee data', error));
+    return () => { mounted = false; };
+  }, []);
 
   useEffect(() => {
-    localStorage.setItem('planrupee_locals', JSON.stringify(locals));
-  }, [locals]);
-
-  useEffect(() => {
-    localStorage.setItem('planrupee_place_reviews', JSON.stringify(placeReviews));
-  }, [placeReviews]);
-
-  useEffect(() => {
-    localStorage.setItem('planrupee_local_reviews', JSON.stringify(localReviews));
-  }, [localReviews]);
-
-  useEffect(() => {
-    localStorage.setItem('planrupee_saved_places', JSON.stringify(savedPlaceIds));
-  }, [savedPlaceIds]);
-
-  useEffect(() => {
-    localStorage.setItem('planrupee_saved_locals', JSON.stringify(savedLocalIds));
-  }, [savedLocalIds]);
-
-  useEffect(() => {
-    if (activeRoadmap) {
-      localStorage.setItem('planrupee_active_roadmap', JSON.stringify(activeRoadmap));
-    }
+    if (activeRoadmap) void api.roadmap(activeRoadmap).catch(error => console.error('Unable to save roadmap', error));
   }, [activeRoadmap]);
-
-  useEffect(() => {
-    localStorage.setItem('planrupee_consultations', JSON.stringify(myConsultations));
-  }, [myConsultations]);
-
-  useEffect(() => {
-    localStorage.setItem('planrupee_concierge_requests', JSON.stringify(myConciergeRequests));
-  }, [myConciergeRequests]);
 
   // Saved toggles
   const toggleSavePlace = (placeId: string) => {
     setSavedPlaceIds(prev => 
       prev.includes(placeId) ? prev.filter(id => id !== placeId) : [...prev, placeId]
     );
+    void api.save('place', placeId).catch(error => console.error('Unable to save place preference', error));
   };
 
   const toggleSaveLocal = (localId: string) => {
     setSavedLocalIds(prev => 
       prev.includes(localId) ? prev.filter(id => id !== localId) : [...prev, localId]
     );
+    void api.save('local', localId).catch(error => console.error('Unable to save local preference', error));
   };
 
   // Roadmap creation & modifications
@@ -405,6 +358,7 @@ export const PlanRupeeProvider: React.FC<{ children: ReactNode }> = ({ children 
     };
 
     setMyConsultations(prev => [newBooking, ...prev]);
+    void api.consultation(newBooking).catch(error => console.error('Unable to save consultation', error));
     return newBooking;
   };
 
@@ -442,6 +396,7 @@ export const PlanRupeeProvider: React.FC<{ children: ReactNode }> = ({ children 
     };
 
     setMyConciergeRequests(prev => [newReq, ...prev]);
+    void api.concierge(newReq).catch(error => console.error('Unable to save concierge request', error));
 
     // Simulate concierge status pipeline progression over time
     setTimeout(() => {
@@ -461,6 +416,7 @@ export const PlanRupeeProvider: React.FC<{ children: ReactNode }> = ({ children 
           ]
         };
       }));
+      void api.conciergeUpdate(newReq.id, { status: 'PLANRUPEE_CONCIERGE' }).catch(error => console.error('Unable to update concierge request', error));
     }, 4000);
 
     return newReq;
@@ -503,6 +459,8 @@ export const PlanRupeeProvider: React.FC<{ children: ReactNode }> = ({ children 
         ]
       };
     }));
+    const request = myConciergeRequests.find(item => item.id === requestId);
+    if (request) void api.conciergeUpdate(requestId, { status: stages[Math.min(stages.indexOf(request.status) + 1, stages.length - 1)] }).catch(error => console.error('Unable to update concierge status', error));
   };
 
   // Real Reviews Submission & Dynamic Rating Calculation
@@ -529,6 +487,7 @@ export const PlanRupeeProvider: React.FC<{ children: ReactNode }> = ({ children 
         userRecommendationsCount: place.userRecommendationsCount + 1
       };
     }));
+    void api.placeReview(newRev).catch(error => console.error('Unable to save place review', error));
   };
 
   const submitLocalReview = (reviewData: Omit<LocalReview, 'id' | 'date'>) => {
@@ -553,6 +512,7 @@ export const PlanRupeeProvider: React.FC<{ children: ReactNode }> = ({ children 
         reviewCount: matching.length
       };
     }));
+    void api.localReview(newRev).catch(error => console.error('Unable to save local review', error));
   };
 
   // Admin Actions
@@ -567,14 +527,17 @@ export const PlanRupeeProvider: React.FC<{ children: ReactNode }> = ({ children 
       recommendedByLocalIds: []
     };
     setPlaces(prev => [newP, ...prev]);
+    void api.place(newP).catch(error => console.error('Unable to save place', error));
   };
 
   const verifyPlace = (placeId: string, status: VerificationStatus) => {
     setPlaces(prev => prev.map(p => p.id === placeId ? { ...p, verificationStatus: status } : p));
+    void api.placeUpdate(placeId, { verificationStatus: status }).catch(error => console.error('Unable to verify place', error));
   };
 
   const verifyLocal = (localId: string, verified: boolean) => {
     setLocals(prev => prev.map(l => l.id === localId ? { ...l, verified, verificationStatus: verified ? 'verified' : 'unverified' } : l));
+    void api.localUpdate(localId, { verified, verificationStatus: verified ? 'verified' : 'unverified' }).catch(error => console.error('Unable to verify local', error));
   };
 
   return (

@@ -1,0 +1,1111 @@
+{
+  "places": [
+    {
+      "id": "chd-rock-garden",
+      "name": "Rock Garden of Chandigarh",
+      "city": "Chandigarh",
+      "category": "Heritage",
+      "address": "Sector 1, Chandigarh, 160001",
+      "images": [
+        "https://images.unsplash.com/photo-1596178065887-1198b6148b2b?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=1000&q=80"
+      ],
+      "description": "A 40-acre visionary sculpture garden created secretly by Nek Chand over 18 years using industrial and household waste, broken ceramic chinaware, and recycled glass bracelets.",
+      "openingHours": "09:00 AM – 07:00 PM (Daily)",
+      "priceLevel": "₹",
+      "approxCostInr": 30,
+      "rating": 4.8,
+      "reviewCount": 1420,
+      "localRecommendationsCount": 18,
+      "userRecommendationsCount": 940,
+      "recommendedByLocalIds": [
+        "local-simran",
+        "local-harleen"
+      ],
+      "verificationStatus": "verified",
+      "whyPlanRupeeRecommends": "One of the most extraordinary folk art environments on earth. Walking through its narrow gorge passages and mosaic plazas reveals Chandigarh’s soul beyond modernist grid lines.",
+      "bestTimeToVisit": "Morning (09:00 – 11:30 AM) or late afternoon to avoid midday sun.",
+      "estimatedDuration": "2.5 hours",
+      "tags": [
+        "Sculpture",
+        "Art",
+        "Eco-Architecture",
+        "Must-Visit",
+        "Family"
+      ]
+    },
+    {
+      "id": "chd-sukhna-lake",
+      "name": "Sukhna Lake & Bird Sanctuary Trail",
+      "city": "Chandigarh",
+      "category": "Nature",
+      "address": "Sector 1, Chandigarh, 160001",
+      "images": [
+        "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1470246973918-29a93221c455?auto=format&fit=crop&w=1000&q=80"
+      ],
+      "description": "A pristine 3 km² rain-fed lake at the foothills of the Shivalik range created in 1958 by damming the Sukhna Choe. Features a scenic walking promenade, solar boat rides, and the quiet Garden of Silence at the far end.",
+      "openingHours": "05:00 AM – 09:30 PM (Daily)",
+      "priceLevel": "₹",
+      "approxCostInr": 100,
+      "rating": 4.7,
+      "reviewCount": 2150,
+      "localRecommendationsCount": 22,
+      "userRecommendationsCount": 1200,
+      "recommendedByLocalIds": [
+        "local-simran",
+        "local-harleen"
+      ],
+      "verificationStatus": "verified",
+      "whyPlanRupeeRecommends": "The defining open-air ritual of Chandigarh. Watching the sunset turn the Shivalik foothills purple from the walking track is an unmissable local experience.",
+      "bestTimeToVisit": "Sunrise (06:00 AM) or Sunset (05:30 – 07:00 PM)",
+      "estimatedDuration": "2 hours",
+      "tags": [
+        "Sunset",
+        "Walking",
+        "Boating",
+        "Peaceful",
+        "Scenic"
+      ]
+    },
+    {
+      "id": "chd-sector-17-plaza",
+      "name": "Sector 17 City Plaza",
+      "city": "Chandigarh",
+      "category": "Shopping",
+      "address": "Sector 17, Chandigarh, 160017",
+      "images": [
+        "https://images.unsplash.com/photo-1519452635265-7b1fbfd1e4e0?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=1000&q=80"
+      ],
+      "description": "Designed by Le Corbusier as the pedestrian civic heart of the city. Broad concrete boulevards lined with trees, musical fountains, historic government book depots, and local retail stores.",
+      "openingHours": "10:30 AM – 09:30 PM (Daily)",
+      "priceLevel": "₹₹",
+      "approxCostInr": 500,
+      "rating": 4.5,
+      "reviewCount": 980,
+      "localRecommendationsCount": 12,
+      "userRecommendationsCount": 650,
+      "recommendedByLocalIds": [
+        "local-simran"
+      ],
+      "verificationStatus": "verified",
+      "whyPlanRupeeRecommends": "Experience Le Corbusier’s modernist pedestrian architecture without traffic. Great for soft-serve ice cream, evening fountain shows, and vintage bookstore browsing.",
+      "bestTimeToVisit": "Evening (05:00 – 08:30 PM)",
+      "estimatedDuration": "2 hours",
+      "tags": [
+        "Architecture",
+        "Pedestrian",
+        "Markets",
+        "Evening Hangout"
+      ]
+    },
+    {
+      "id": "chd-pal-dhaba",
+      "name": "Pal Dhaba Sector 28",
+      "city": "Chandigarh",
+      "category": "Food",
+      "address": "Booth No. 165 & 166, Inner Market, Sector 28-D, Chandigarh",
+      "images": [
+        "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=1000&q=80"
+      ],
+      "description": "An iconic Punjabi culinary institution serving authentic robust dishes since 1960. Renowned for its slow-cooked Butter Chicken, Rogan Josh, Dal Makhani, and tandoori garlic naans.",
+      "openingHours": "11:00 AM – 11:00 PM (Daily)",
+      "priceLevel": "₹₹",
+      "approxCostInr": 650,
+      "rating": 4.8,
+      "reviewCount": 3410,
+      "localRecommendationsCount": 26,
+      "userRecommendationsCount": 1890,
+      "recommendedByLocalIds": [
+        "local-simran",
+        "local-harleen",
+        "local-amanjit"
+      ],
+      "verificationStatus": "verified",
+      "whyPlanRupeeRecommends": "Universally hailed by generations of Chandigarh residents and visiting dignitaries. Unpretentious, loud, energetic, and delivers legendary Punjabi comfort food.",
+      "bestTimeToVisit": "Dinner (08:00 – 10:00 PM) or lunch around 01:30 PM",
+      "estimatedDuration": "1.5 hours",
+      "tags": [
+        "Punjabi Food",
+        "Butter Chicken",
+        "Legendary",
+        "Authentic"
+      ]
+    },
+    {
+      "id": "chd-capitol-complex",
+      "name": "Capitol Complex & Open Hand Monument",
+      "city": "Chandigarh",
+      "category": "Heritage",
+      "address": "Sector 1, Chandigarh, 160001 (UNESCO World Heritage Site)",
+      "images": [
+        "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1000&q=80"
+      ],
+      "description": "The monumental UNESCO World Heritage centerpiece designed by Swiss-French architect Le Corbusier. Comprises the High Court, Secretariat, Legislative Assembly, and the 26-meter rotating Open Hand monument symbolizing \"open to give, open to receive\".",
+      "openingHours": "10:00 AM – 04:30 PM (Pre-registration / Guided tours)",
+      "priceLevel": "₹",
+      "approxCostInr": 50,
+      "rating": 4.9,
+      "reviewCount": 820,
+      "localRecommendationsCount": 19,
+      "userRecommendationsCount": 540,
+      "recommendedByLocalIds": [
+        "local-harleen"
+      ],
+      "verificationStatus": "verified",
+      "whyPlanRupeeRecommends": "A landmark of 20th-century global architecture. Its brutalist concrete forms, ramp geometries, and raw symbolism cannot be found anywhere else in Asia.",
+      "bestTimeToVisit": "Morning architectural tour (10:00 AM)",
+      "estimatedDuration": "2 hours",
+      "tags": [
+        "UNESCO",
+        "Architecture",
+        "Le Corbusier",
+        "Historic"
+      ]
+    },
+    {
+      "id": "chd-virgin-courtyard",
+      "name": "Virgin Courtyard",
+      "city": "Chandigarh",
+      "category": "Café",
+      "address": "SCO 1A, Sector 7-C, Madhya Marg, Chandigarh",
+      "images": [
+        "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1000&q=80"
+      ],
+      "description": "An enchanting sunlit Italian restaurant with white Mediterranean stone arches, cobblestone courtyard seating under bougainvillea, and hand-rolled pasta paired with sangria.",
+      "openingHours": "11:30 AM – 11:30 PM (Daily)",
+      "priceLevel": "₹₹₹",
+      "approxCostInr": 1400,
+      "rating": 4.85,
+      "reviewCount": 960,
+      "localRecommendationsCount": 15,
+      "userRecommendationsCount": 520,
+      "recommendedByLocalIds": [
+        "local-simran"
+      ],
+      "verificationStatus": "verified",
+      "whyPlanRupeeRecommends": "Chandigarh’s crown jewel for romantic dining and peaceful afternoon coffees. The serene courtyard ambiance feels transportive.",
+      "bestTimeToVisit": "Evening for candlelit dinner (08:00 PM) or late lunch (02:00 PM)",
+      "estimatedDuration": "2 hours",
+      "tags": [
+        "Romantic",
+        "Italian",
+        "Date Night",
+        "Courtyard",
+        "Artisan Coffee"
+      ]
+    },
+    {
+      "id": "chd-sector-8-cafes",
+      "name": "Sector 8 Artisan Coffee & Bakeries",
+      "city": "Chandigarh",
+      "category": "Café",
+      "address": "Inner Market, Sector 8-B, Chandigarh",
+      "images": [
+        "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "description": "The creative epicenter of Chandigarh’s contemporary café culture. Features specialty pour-overs, sourdough bakeries, artisanal gelato, and indie boutique studios.",
+      "openingHours": "08:30 AM – 11:00 PM (Daily)",
+      "priceLevel": "₹₹",
+      "approxCostInr": 450,
+      "rating": 4.7,
+      "reviewCount": 680,
+      "localRecommendationsCount": 14,
+      "userRecommendationsCount": 420,
+      "recommendedByLocalIds": [
+        "local-simran",
+        "local-harleen"
+      ],
+      "verificationStatus": "verified",
+      "whyPlanRupeeRecommends": "Where local entrepreneurs and creatives spend their mornings with freshly roasted single-origin brews. Perfect starting base for a Chandigarh day.",
+      "bestTimeToVisit": "Morning breakfast (09:00 – 11:00 AM) or coffee break (04:00 PM)",
+      "estimatedDuration": "1.5 hours",
+      "tags": [
+        "Specialty Coffee",
+        "Bakery",
+        "Hipster",
+        "Casual"
+      ]
+    },
+    {
+      "id": "ptl-qila-mubarak",
+      "name": "Qila Mubarak Royal Complex",
+      "city": "Patiala",
+      "category": "Heritage",
+      "address": "Quila Chowk, Adalat Bazaar, Patiala, 147001",
+      "images": [
+        "https://images.unsplash.com/photo-1587474260584-136574528ed5?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&w=1000&q=80"
+      ],
+      "description": "Founded in 1763 by Baba Ala Singh, the 10-acre fort complex is a rare synthesis of Mughal and Rajasthani architecture. Houses the majestic Ran Baas guest palace and Darbar Hall with Belgian cut-glass chandeliers and Maharaja armor collections.",
+      "openingHours": "09:00 AM – 05:00 PM (Closed Mondays)",
+      "priceLevel": "₹",
+      "approxCostInr": 20,
+      "rating": 4.7,
+      "reviewCount": 890,
+      "localRecommendationsCount": 16,
+      "userRecommendationsCount": 430,
+      "recommendedByLocalIds": [
+        "local-gurpreet"
+      ],
+      "verificationStatus": "verified",
+      "whyPlanRupeeRecommends": "The epicenter of Patiala Shahi royal history. Stepping into the ancient courtyards reveals the immense grandeur of Punjab’s princely state heritage.",
+      "bestTimeToVisit": "Morning (09:30 AM – 12:00 PM)",
+      "estimatedDuration": "2.5 hours",
+      "tags": [
+        "Royal Heritage",
+        "Fort",
+        "Museum",
+        "Architecture",
+        "Photowalk"
+      ]
+    },
+    {
+      "id": "ptl-sheesh-mahal",
+      "name": "Sheesh Mahal & Medal Gallery",
+      "city": "Patiala",
+      "category": "Heritage",
+      "address": "Old Moti Bagh, Patiala, 147001",
+      "images": [
+        "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1000&q=80"
+      ],
+      "description": "The Palace of Mirrors constructed under Maharaja Narinder Singh in 1847. Surrounded by a scenic moat with a Lakshman Jhula style rope bridge, housing Kangra miniature frescoes and the world’s largest collection of royal orders and decorations.",
+      "openingHours": "10:00 AM – 05:00 PM (Closed Mondays)",
+      "priceLevel": "₹",
+      "approxCostInr": 25,
+      "rating": 4.65,
+      "reviewCount": 710,
+      "localRecommendationsCount": 15,
+      "userRecommendationsCount": 380,
+      "recommendedByLocalIds": [
+        "local-gurpreet"
+      ],
+      "verificationStatus": "verified",
+      "whyPlanRupeeRecommends": "The suspension bridge over the water body in front of the mirrored palace creates one of the most picturesque sunset frames in all of Punjab.",
+      "bestTimeToVisit": "Afternoon (02:30 – 05:00 PM)",
+      "estimatedDuration": "2 hours",
+      "tags": [
+        "Palace",
+        "Lake",
+        "Mirrors",
+        "Royal Art",
+        "Scenic"
+      ]
+    },
+    {
+      "id": "ptl-baradari-gardens",
+      "name": "Baradari Royal Gardens & Pavilion",
+      "city": "Patiala",
+      "category": "Nature",
+      "address": "Near Baradari Palace, Circuit House Road, Patiala",
+      "images": [
+        "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "description": "A sprawling 19th-century royal Mughal garden with 12 open gates (Baradari) commissioned by Maharaja Rajinder Singh. Dotted with ancient banyan trees, rare botanical imports, and colonial marble fountains.",
+      "openingHours": "05:30 AM – 09:00 PM (Daily)",
+      "priceLevel": "₹",
+      "approxCostInr": 0,
+      "rating": 4.6,
+      "reviewCount": 540,
+      "localRecommendationsCount": 11,
+      "userRecommendationsCount": 290,
+      "recommendedByLocalIds": [
+        "local-gurpreet"
+      ],
+      "verificationStatus": "verified",
+      "whyPlanRupeeRecommends": "A tranquil oasis where Patiala locals gather for early morning walking and quiet conversations amidst century-old royal trees.",
+      "bestTimeToVisit": "Early morning (06:30 – 08:30 AM) or sunset",
+      "estimatedDuration": "1.5 hours",
+      "tags": [
+        "Gardens",
+        "Walking",
+        "Peaceful",
+        "Colonial Heritage"
+      ]
+    },
+    {
+      "id": "ptl-adalat-bazaar",
+      "name": "Adalat Bazaar & Phulkari Hub",
+      "city": "Patiala",
+      "category": "Shopping",
+      "address": "Adalat Bazaar Road, Patiala, 147001",
+      "images": [
+        "https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "description": "The ancient bustling commercial heart of Patiala. Renowned worldwide for authentic artisan Phulkari embroidery, traditional handcrafted Patiala Shahi juttis, and authentic Parandis directly from master weavers.",
+      "openingHours": "11:00 AM – 09:00 PM (Daily)",
+      "priceLevel": "₹₹",
+      "approxCostInr": 1200,
+      "rating": 4.8,
+      "reviewCount": 1120,
+      "localRecommendationsCount": 20,
+      "userRecommendationsCount": 760,
+      "recommendedByLocalIds": [
+        "local-gurpreet",
+        "local-simran"
+      ],
+      "verificationStatus": "verified",
+      "whyPlanRupeeRecommends": "No trip to Patiala is complete without feeling the heavy silk floss needlework of genuine Phulkari. Authentic heritage craftsmanship at direct artisan rates.",
+      "bestTimeToVisit": "Late afternoon to evening (04:00 – 07:30 PM)",
+      "estimatedDuration": "2.5 hours",
+      "tags": [
+        "Phulkari",
+        "Handicrafts",
+        "Jutti",
+        "Textiles",
+        "Old City"
+      ]
+    },
+    {
+      "id": "ptl-gopal-sweets-lassi",
+      "name": "Patiala Shahi Lassi & Gopal Sweets",
+      "city": "Patiala",
+      "category": "Food",
+      "address": "Near Phul Cinema & Adalat Bazaar, Patiala",
+      "images": [
+        "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "description": "Legendary brass-churned Patiala Shahi lassi served in deep terracotta kulhads with a thick layer of fresh malai, paired with piping hot kachoris and rich dry fruit pinnis.",
+      "openingHours": "08:00 AM – 10:30 PM (Daily)",
+      "priceLevel": "₹",
+      "approxCostInr": 180,
+      "rating": 4.9,
+      "reviewCount": 1890,
+      "localRecommendationsCount": 24,
+      "userRecommendationsCount": 1450,
+      "recommendedByLocalIds": [
+        "local-gurpreet",
+        "local-amanjit"
+      ],
+      "verificationStatus": "verified",
+      "whyPlanRupeeRecommends": "The undisputed taste of authentic Patiala. A single glass of this velvety saffron-topped lassi is a royal meal in itself.",
+      "bestTimeToVisit": "Midday (11:30 AM – 02:00 PM)",
+      "estimatedDuration": "45 mins",
+      "tags": [
+        "Patiala Lassi",
+        "Dessert",
+        "Street Food",
+        "Legendary"
+      ]
+    },
+    {
+      "id": "ptl-dukh-niwaran-sahib",
+      "name": "Gurdwara Dukh Niwaran Sahib",
+      "city": "Patiala",
+      "category": "Spiritual",
+      "address": "Sirhind Road, Patiala, 147001",
+      "images": [
+        "https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "description": "Sacred Sikh shrine commemorating the visit of the ninth Guru, Guru Tegh Bahadur Sahib. Pilgrims revere the sacred sarovar, known for spiritual solace and healing traditions.",
+      "openingHours": "Open 24 Hours",
+      "priceLevel": "₹",
+      "approxCostInr": 0,
+      "rating": 4.95,
+      "reviewCount": 2200,
+      "localRecommendationsCount": 21,
+      "userRecommendationsCount": 1680,
+      "recommendedByLocalIds": [
+        "local-gurpreet",
+        "local-amanjit"
+      ],
+      "verificationStatus": "verified",
+      "whyPlanRupeeRecommends": "The peaceful kirtan echoing across the illuminated marble sarovar at dawn or dusk delivers profound spiritual grounding.",
+      "bestTimeToVisit": "Early morning Amrit Vela (05:00 AM) or evening sunset kirtan",
+      "estimatedDuration": "1.5 hours",
+      "tags": [
+        "Sikh Heritage",
+        "Spiritual",
+        "Sarovar",
+        "Langar",
+        "Peaceful"
+      ]
+    },
+    {
+      "id": "raj-kasturba-sewa-mandir",
+      "name": "Kasturba Sewa Mandir & Organic Orchard",
+      "city": "Rajpura",
+      "category": "Heritage",
+      "address": "Kasturba Dham, Near Old GT Road, Rajpura, 140401",
+      "images": [
+        "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "description": "Established in 1947–1950 during the post-partition resettlement under Gandhian constructive workers. Still preserves traditional handloom khadi spinning, organic amla orchards, and historical archives of Punjab’s refugee rehabilitation story.",
+      "openingHours": "09:00 AM – 05:00 PM (Mon – Sat)",
+      "priceLevel": "₹",
+      "approxCostInr": 50,
+      "rating": 4.6,
+      "reviewCount": 310,
+      "localRecommendationsCount": 12,
+      "userRecommendationsCount": 180,
+      "recommendedByLocalIds": [
+        "local-harleen",
+        "local-amanjit"
+      ],
+      "verificationStatus": "verified",
+      "whyPlanRupeeRecommends": "The emotional and historical cornerstone of modern Rajpura. You can purchase genuine organic honey, khadi fabrics, and learn an inspiring tale of community rebuilding.",
+      "bestTimeToVisit": "Morning (10:00 AM – 01:00 PM)",
+      "estimatedDuration": "2 hours",
+      "tags": [
+        "Gandhian Heritage",
+        "Khadi",
+        "Organic",
+        "Partition History"
+      ]
+    },
+    {
+      "id": "raj-gt-road-dhabas",
+      "name": "Eagle & Heritage GT Road Dhabas",
+      "city": "Rajpura",
+      "category": "Food",
+      "address": "NH 44 (Old GT Road Junction), Rajpura By-Pass, 140401",
+      "images": [
+        "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "description": "Legendary Grand Trunk Road highway dhabas that have served cross-country truckers and food connoisseurs for over 50 years. Famous for clay-oven tandoori chicken, sarson ka saag with makki roti, and rich dal tadka.",
+      "openingHours": "Open 24 Hours",
+      "priceLevel": "₹₹",
+      "approxCostInr": 400,
+      "rating": 4.75,
+      "reviewCount": 1650,
+      "localRecommendationsCount": 22,
+      "userRecommendationsCount": 1100,
+      "recommendedByLocalIds": [
+        "local-amanjit",
+        "local-harleen"
+      ],
+      "verificationStatus": "verified",
+      "whyPlanRupeeRecommends": "The definitive highway culinary stopover between Chandigarh and Delhi. Charred tandoori rotis dripping with home-churned white butter.",
+      "bestTimeToVisit": "Late dinner (08:30 – 11:30 PM) or breakfast chai with stuffed paranthas",
+      "estimatedDuration": "1.5 hours",
+      "tags": [
+        "Highway Dhaba",
+        "GT Road",
+        "Tandoori",
+        "Late Night"
+      ]
+    },
+    {
+      "id": "raj-grain-mandi",
+      "name": "Rajpura Historic Grain & Spice Mandi",
+      "city": "Rajpura",
+      "category": "Local Experiences",
+      "address": "Old Mandi Road, Rajpura Town, 140401",
+      "images": [
+        "https://images.unsplash.com/photo-1578916171728-46686eac8d58?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "description": "One of Malwa Punjab’s key agricultural hubs. Features traditional wholesale spice traders, seasonal jaggery (gur) makers, and bustling morning auctions of golden wheat and basmati rice.",
+      "openingHours": "06:00 AM – 02:00 PM (Daily)",
+      "priceLevel": "₹",
+      "approxCostInr": 0,
+      "rating": 4.4,
+      "reviewCount": 280,
+      "localRecommendationsCount": 9,
+      "userRecommendationsCount": 140,
+      "recommendedByLocalIds": [
+        "local-amanjit"
+      ],
+      "verificationStatus": "verified",
+      "whyPlanRupeeRecommends": "An immersive sensory window into Punjab’s agrarian heartland. Photographers will love the golden morning dust, burlap sacks, and cup of kadak adrak chai.",
+      "bestTimeToVisit": "Early morning (07:00 – 09:30 AM)",
+      "estimatedDuration": "1.5 hours",
+      "tags": [
+        "Agrarian",
+        "Photography",
+        "Spice Market",
+        "Cultural Immersion"
+      ]
+    },
+    {
+      "id": "raj-guru-tegh-bahadur",
+      "name": "Gurdwara Sri Guru Tegh Bahadur Sahib",
+      "city": "Rajpura",
+      "category": "Spiritual",
+      "address": "Near Old Rajpura Colony, Rajpura, 140401",
+      "images": [
+        "https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "description": "A serene historic gurdwara marking the path traveled by the ninth Sikh Guru toward Delhi. Revered for its peaceful sanctum, shaded banyan trees, and community langar.",
+      "openingHours": "04:00 AM – 10:00 PM (Daily)",
+      "priceLevel": "₹",
+      "approxCostInr": 0,
+      "rating": 4.8,
+      "reviewCount": 520,
+      "localRecommendationsCount": 11,
+      "userRecommendationsCount": 310,
+      "recommendedByLocalIds": [
+        "local-amanjit"
+      ],
+      "verificationStatus": "verified",
+      "whyPlanRupeeRecommends": "A quiet, unhurried spiritual haven away from highway hustle. Enjoy community langar served with warmth and humility.",
+      "bestTimeToVisit": "Morning prayers (07:00 AM)",
+      "estimatedDuration": "1 hour",
+      "tags": [
+        "Spiritual",
+        "Sikh Shrine",
+        "Peaceful",
+        "Langar"
+      ]
+    },
+    {
+      "id": "raj-neelam-plaza",
+      "name": "Neelam Sweets & Traditional Kachori Hub",
+      "city": "Rajpura",
+      "category": "Food",
+      "address": "Near Focal Point & Station Road, Rajpura",
+      "images": [
+        "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "description": "Renowned for morning crispy dal kachoris served with spicy aloo sabzi, freshly prepared hot jalebis, and seasonal pinni sweets prepared with pure desi ghee.",
+      "openingHours": "07:30 AM – 10:00 PM (Daily)",
+      "priceLevel": "₹",
+      "approxCostInr": 120,
+      "rating": 4.65,
+      "reviewCount": 640,
+      "localRecommendationsCount": 13,
+      "userRecommendationsCount": 390,
+      "recommendedByLocalIds": [
+        "local-amanjit",
+        "local-harleen"
+      ],
+      "verificationStatus": "verified",
+      "whyPlanRupeeRecommends": "The most popular breakfast stop for residents and commuters passing through Rajpura junction. Unrivaled freshly fried kachoris.",
+      "bestTimeToVisit": "Morning (08:30 – 10:30 AM)",
+      "estimatedDuration": "40 mins",
+      "tags": [
+        "Breakfast",
+        "Kachori",
+        "Jalebi",
+        "Desi Sweets"
+      ]
+    }
+  ],
+  "locals": [
+    {
+      "id": "local-simran",
+      "name": "Simran Kaur",
+      "city": "Chandigarh",
+      "title": "Chandigarh Local & Culinary Curator",
+      "verified": true,
+      "verificationStatus": "verified",
+      "avatar": "https://img.magnific.com/premium-photo/professional-indian-woman-confident-poised-business-portrait_606187-8193.jpg?w=360",
+      "rating": 4.9,
+      "reviewCount": 127,
+      "travelersHelped": 127,
+      "languages": [
+        "English",
+        "Hindi",
+        "Punjabi"
+      ],
+      "expertise": [
+        "Food",
+        "Cafés",
+        "Hidden Gems",
+        "Shopping"
+      ],
+      "consultationFee": 799,
+      "bio": "Born and raised in Chandigarh. I know the cafés, food spots and quiet corners that don’t show up on typical tourist lists.",
+      "whyChooseMe": "I have explored every single sector in Chandigarh over 26 years. Whether you want an undiscovered outdoor courtyard café, the best authentic butter chicken at midnight, or Le Corbusier secret archives, I tailor your day to your exact vibe.",
+      "availability": "Available today • Instant response within 1 hour",
+      "instagramHandle": "@simran_chandigarhpicks",
+      "placesILoveIds": [
+        "chd-rock-garden",
+        "chd-sukhna-lake",
+        "chd-virgin-courtyard",
+        "chd-pal-dhaba",
+        "chd-sector-8-cafes"
+      ],
+      "localPicks": {
+        "bestBreakfast": {
+          "label": "Best Breakfast",
+          "name": "Backpackers Cafe Sector 9",
+          "description": "Crispy herb waffles and freshly pressed juice under warm timber lights."
+        },
+        "bestCafe": {
+          "label": "Best Café",
+          "name": "Virgin Courtyard Sector 7",
+          "placeId": "chd-virgin-courtyard",
+          "description": "White Mediterranean stone, bougainvillea, and hand-whipped tiramisu."
+        },
+        "bestSunset": {
+          "label": "Best Sunset",
+          "name": "Sukhna Lake Bird Sanctuary Trail",
+          "placeId": "chd-sukhna-lake",
+          "description": "Far quieter than the main promenade; the Shivalik hill shadows turn lilac."
+        },
+        "bestStreetFood": {
+          "label": "Best Street Food",
+          "name": "Sector 22 Rehri Market Chaat",
+          "description": "Crispy golgappe with 5 types of flavored waters and roasted aloo tikki."
+        },
+        "bestDateSpot": {
+          "label": "Best Date Spot",
+          "name": "The Willow Cafe Sector 10",
+          "description": "English country-cottage interiors with cozy balcony seating."
+        },
+        "bestHiddenPlace": {
+          "label": "Best Hidden Place",
+          "name": "Garden of Silence (Behind Sukhna Lake)",
+          "description": "Concentric stone circles surrounding a seated Buddha in complete stillness."
+        }
+      },
+      "reels": [
+        {
+          "id": "reel-simran-1",
+          "title": "3 Secret Courtyard Cafes in Chandigarh",
+          "views": "42.8K",
+          "duration": "0:38",
+          "thumbnail": "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=600&q=80",
+          "tag": "Cafes"
+        },
+        {
+          "id": "reel-simran-2",
+          "title": "Midnight Food Run: Pal Dhaba Butter Chicken",
+          "views": "68.1K",
+          "duration": "0:45",
+          "thumbnail": "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=600&q=80",
+          "tag": "Food"
+        },
+        {
+          "id": "reel-simran-3",
+          "title": "Golden Hour at Sukhna Lake Quiet Trail",
+          "views": "31.4K",
+          "duration": "0:29",
+          "thumbnail": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=600&q=80",
+          "tag": "Sunset"
+        }
+      ]
+    },
+    {
+      "id": "local-gurpreet",
+      "name": "Gurpreet Singh",
+      "city": "Patiala",
+      "title": "Patiala Heritage Historian & Textile Enthusiast",
+      "verified": true,
+      "verificationStatus": "verified",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=800&q=80",
+      "rating": 4.95,
+      "reviewCount": 94,
+      "travelersHelped": 94,
+      "languages": [
+        "Punjabi",
+        "English",
+        "Hindi"
+      ],
+      "expertise": [
+        "Heritage",
+        "Architecture",
+        "Royal Food",
+        "Textile Markets"
+      ],
+      "consultationFee": 849,
+      "bio": "Heritage historian and third-generation Patiala resident. I will show you royal darbars, the finest handloom phulkaris, and true Patiala Shahi lassi.",
+      "whyChooseMe": "I have archival access to Patiala’s princely history, relationships with 4th-generation master Phulkari embroiderers, and direct knowledge of royal court cuisine traditions.",
+      "availability": "Available tomorrow • Response within 2 hours",
+      "instagramHandle": "@patiala_heritage_walks",
+      "placesILoveIds": [
+        "ptl-qila-mubarak",
+        "ptl-sheesh-mahal",
+        "ptl-adalat-bazaar",
+        "ptl-gopal-sweets-lassi",
+        "ptl-baradari-gardens"
+      ],
+      "localPicks": {
+        "bestBreakfast": {
+          "label": "Best Breakfast",
+          "name": "Nagpal Kulche Chhole (Near Adalat Bazaar)",
+          "description": "Tandoori layered Amritsari kulchas served with tangy chana and spicy tamarind chutney."
+        },
+        "bestCafe": {
+          "label": "Best Café",
+          "name": "Cafe Green Baradari",
+          "description": "Historic colonial garden setting with freshly brewed South Indian filter coffee."
+        },
+        "bestSunset": {
+          "label": "Best Sunset",
+          "name": "Sheesh Mahal Suspension Bridge",
+          "placeId": "ptl-sheesh-mahal",
+          "description": "Reflections of the Maharaja’s palace of mirrors in the calm moat water."
+        },
+        "bestStreetFood": {
+          "label": "Best Street Food",
+          "name": "Chacha Lassi & Dahi Bhalle",
+          "placeId": "ptl-gopal-sweets-lassi",
+          "description": "Whipped chilled curd dumplings dusted with roasted cumin and pomegranate seeds."
+        },
+        "bestDateSpot": {
+          "label": "Best Date Spot",
+          "name": "Baradari Palace Heritage Lawns",
+          "placeId": "ptl-baradari-gardens",
+          "description": "Walking beneath 150-year-old mahogany trees under starlight."
+        },
+        "bestHiddenPlace": {
+          "label": "Best Hidden Place",
+          "name": "Darbar Hall Royal Armoury Vault",
+          "placeId": "ptl-qila-mubarak",
+          "description": "Ornate swords of Guru Gobind Singh and Mughal emperors in pure steel and gold."
+        }
+      },
+      "reels": [
+        {
+          "id": "reel-gurpreet-1",
+          "title": "Behind the Gates of Qila Mubarak",
+          "views": "54.2K",
+          "duration": "0:50",
+          "thumbnail": "https://images.unsplash.com/photo-1587474260584-136574528ed5?auto=format&fit=crop&w=600&q=80",
+          "tag": "Heritage"
+        },
+        {
+          "id": "reel-gurpreet-2",
+          "title": "How Real Patiala Phulkari is Hand-Stitched",
+          "views": "79.5K",
+          "duration": "0:42",
+          "thumbnail": "https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?auto=format&fit=crop&w=600&q=80",
+          "tag": "Artisans"
+        }
+      ]
+    },
+    {
+      "id": "local-harleen",
+      "name": "Harleen Virdi",
+      "city": "Chandigarh",
+      "title": "Modernist Architect & Highway Explorer",
+      "verified": true,
+      "verificationStatus": "verified",
+      "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=800&q=80",
+      "rating": 4.88,
+      "reviewCount": 83,
+      "travelersHelped": 83,
+      "languages": [
+        "English",
+        "Punjabi",
+        "Hindi"
+      ],
+      "expertise": [
+        "Modernist Architecture",
+        "Coffee",
+        "Highway Dhabas",
+        "Photography"
+      ],
+      "consultationFee": 699,
+      "bio": "Architect and coffee enthusiast. I uncover Chandigarh’s Le Corbusier heritage secrets and Rajpura’s authentic post-partition food joints.",
+      "whyChooseMe": "I connect the architectural brilliance of Chandigarh with the raw agrarian authenticity of nearby Rajpura and Patiala.",
+      "availability": "Available today • Instant booking",
+      "instagramHandle": "@harleen_spaces",
+      "placesILoveIds": [
+        "chd-capitol-complex",
+        "chd-sector-8-cafes",
+        "raj-kasturba-sewa-mandir",
+        "raj-gt-road-dhabas"
+      ],
+      "localPicks": {
+        "bestBreakfast": {
+          "label": "Best Breakfast",
+          "name": "Kasturba Khadi Organic Kitchen",
+          "placeId": "raj-kasturba-sewa-mandir",
+          "description": "Farm-fresh organic buttermilk, amla preserve, and handmade wheat chapatis."
+        },
+        "bestCafe": {
+          "label": "Best Café",
+          "name": "Midpoint Cafe Sector 8",
+          "placeId": "chd-sector-8-cafes",
+          "description": "Minimalist pour-overs, natural light, and quiet design books."
+        },
+        "bestSunset": {
+          "label": "Best Sunset",
+          "name": "Capitol Complex Open Hand Esplanade",
+          "placeId": "chd-capitol-complex",
+          "description": "The monumental shadow of the rotating hand aligns with the sunset breeze."
+        },
+        "bestStreetFood": {
+          "label": "Best Street Food",
+          "name": "Eagle Dhaba Tandoor (Rajpura NH44)",
+          "placeId": "raj-gt-road-dhabas",
+          "description": "Charred smoked paneer tikka with raw sliced onions and mint chutney."
+        },
+        "bestDateSpot": {
+          "label": "Best Date Spot",
+          "name": "Olive & Herb Sector 7",
+          "description": "Intimate terrace garden dining with wood-fired sourdough pizzas."
+        },
+        "bestHiddenPlace": {
+          "label": "Best Hidden Place",
+          "name": "Pierre Jeanneret Museum Sector 5",
+          "description": "The restored modernist home of Corbusier’s cousin with original teak furniture."
+        }
+      },
+      "reels": [
+        {
+          "id": "reel-harleen-1",
+          "title": "Secrets Inside Chandigarh High Court",
+          "views": "38.9K",
+          "duration": "0:35",
+          "thumbnail": "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=600&q=80",
+          "tag": "Architecture"
+        }
+      ]
+    },
+    {
+      "id": "local-amanjit",
+      "name": "Amanjit Sandhu",
+      "city": "Rajpura",
+      "title": "GT Road Chronicler & Agrarian Guide",
+      "verified": true,
+      "verificationStatus": "verified",
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=800&q=80",
+      "rating": 4.85,
+      "reviewCount": 61,
+      "travelersHelped": 61,
+      "languages": [
+        "Punjabi",
+        "Hindi"
+      ],
+      "expertise": [
+        "GT Road Dhabas",
+        "Local Markets",
+        "Rural Experiences",
+        "Sikh Heritage"
+      ],
+      "consultationFee": 599,
+      "bio": "Highway food explorer and cultural storyteller. Grew up along the historic Grand Trunk Road, knowing every dhaba cook and grain market elder.",
+      "whyChooseMe": "I will introduce you to true rural hospitality, family-run highway tandoors, and the rich refugee rehabilitation legacy of Rajpura.",
+      "availability": "Available today • Response within 30 mins",
+      "instagramHandle": "@amanjit_gttrail",
+      "placesILoveIds": [
+        "raj-gt-road-dhabas",
+        "raj-kasturba-sewa-mandir",
+        "raj-grain-mandi",
+        "raj-guru-tegh-bahadur"
+      ],
+      "localPicks": {
+        "bestBreakfast": {
+          "label": "Best Breakfast",
+          "name": "Neelam Kachori & Desi Ghee Jalebi",
+          "placeId": "raj-neelam-plaza",
+          "description": "Fresh piping hot kachoris with fragrant hing-spiced aloo."
+        },
+        "bestCafe": {
+          "label": "Best Café",
+          "name": "Chai & Kisaan Hub (NH 44)",
+          "description": "Clay kulhad chai made with organic buffalo milk and fresh ginger."
+        },
+        "bestSunset": {
+          "label": "Best Sunset",
+          "name": "Fields of Bahadurgarh Border",
+          "description": "Golden mustard fields stretching into the horizon with ancient fort ramparts."
+        },
+        "bestStreetFood": {
+          "label": "Best Street Food",
+          "name": "Puran Singh Legacy Dhaba Tandoor",
+          "placeId": "raj-gt-road-dhabas",
+          "description": "Crisp layered tandoori rotis served straight onto steel plates with yellow dal."
+        },
+        "bestDateSpot": {
+          "label": "Best Date Spot",
+          "name": "Kasturba Orchard Shaded Canopies",
+          "placeId": "raj-kasturba-sewa-mandir",
+          "description": "Peaceful afternoon walks under fruit canopies."
+        },
+        "bestHiddenPlace": {
+          "label": "Best Hidden Place",
+          "name": "Ancient Mughal Sarai Remains",
+          "description": "17th-century brick caravanserai arches where medieval travelers rested on the GT Road."
+        }
+      },
+      "reels": [
+        {
+          "id": "reel-amanjit-1",
+          "title": "50-Year Old Tandoor Secret on GT Road",
+          "views": "92.3K",
+          "duration": "0:48",
+          "thumbnail": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=600&q=80",
+          "tag": "Dhabas"
+        }
+      ]
+    }
+  ],
+  "place_reviews": [
+    {
+      "id": "pr-1",
+      "placeId": "chd-rock-garden",
+      "authorName": "Rohan Mehra",
+      "authorLocation": "New Delhi",
+      "date": "14 Sep 2026",
+      "overallRating": 5,
+      "foodRating": 4,
+      "ambienceRating": 5,
+      "valueRating": 5,
+      "cleanlinessRating": 4.8,
+      "experienceRating": 5,
+      "comment": "Unbelievable creativity. The transition from tiny stone alleyways into massive amphitheatres made of recycled porcelain is mesmerizing. Visited as part of my Day 1 PlanRupee roadmap.",
+      "verificationType": "verified_visit"
+    },
+    {
+      "id": "pr-2",
+      "placeId": "chd-sukhna-lake",
+      "authorName": "Ananya Sharma",
+      "authorLocation": "Mumbai",
+      "date": "10 Sep 2026",
+      "overallRating": 4.8,
+      "foodRating": 4.2,
+      "ambienceRating": 5,
+      "valueRating": 5,
+      "cleanlinessRating": 4.9,
+      "experienceRating": 4.8,
+      "comment": "The walking path during early morning is calm and therapeutic. Local guide Simran told us to walk all the way to the silence zone instead of staying near the crowded ticket counter.",
+      "verificationType": "verified_visit"
+    },
+    {
+      "id": "pr-3",
+      "placeId": "chd-pal-dhaba",
+      "authorName": "Vikramjit Sahni",
+      "authorLocation": "Ludhiana",
+      "date": "08 Sep 2026",
+      "overallRating": 4.9,
+      "foodRating": 5,
+      "ambienceRating": 4.2,
+      "valueRating": 4.8,
+      "cleanlinessRating": 4.5,
+      "experienceRating": 4.9,
+      "comment": "Butter Chicken lives up to its 60-year fame. Creamy without being cloying, deep charred smokiness from the tandoor. You must order with garlic naan.",
+      "verificationType": "verified_visit"
+    },
+    {
+      "id": "pr-4",
+      "placeId": "ptl-qila-mubarak",
+      "authorName": "Dr. Alistair Campbell",
+      "authorLocation": "Edinburgh, UK",
+      "date": "02 Sep 2026",
+      "overallRating": 4.7,
+      "foodRating": 3.5,
+      "ambienceRating": 4.8,
+      "valueRating": 5,
+      "cleanlinessRating": 4.2,
+      "experienceRating": 4.9,
+      "comment": "The Ran Baas courtyards and Darbar Hall armory are a treasure trove. Gurpreet was our local advisor through PlanRupee and explained the Sikh-Mughal architectural synergy with immense depth.",
+      "verificationType": "verified_visit"
+    },
+    {
+      "id": "pr-5",
+      "placeId": "ptl-gopal-sweets-lassi",
+      "authorName": "Tanya Kapoor",
+      "authorLocation": "Bengaluru",
+      "date": "28 Aug 2026",
+      "overallRating": 5,
+      "foodRating": 5,
+      "ambienceRating": 4.5,
+      "valueRating": 4.9,
+      "cleanlinessRating": 4.7,
+      "experienceRating": 5,
+      "comment": "Thickest lassi I have had in India. Served in a heavy clay kulhad with a spoon because the malai layer is literally an inch thick! Absolutely essential Patiala stop.",
+      "verificationType": "verified_visit"
+    },
+    {
+      "id": "pr-6",
+      "placeId": "raj-kasturba-sewa-mandir",
+      "authorName": "Preeti Deshmukh",
+      "authorLocation": "Pune",
+      "date": "19 Aug 2026",
+      "overallRating": 4.6,
+      "foodRating": 4.5,
+      "ambienceRating": 4.8,
+      "valueRating": 5,
+      "cleanlinessRating": 4.8,
+      "experienceRating": 4.6,
+      "comment": "A quiet, inspiring historical oasis. The amla products and handspun khadi shawls are genuine and support rural women weavers.",
+      "verificationType": "verified_visit"
+    },
+    {
+      "id": "pr-7",
+      "placeId": "raj-gt-road-dhabas",
+      "authorName": "Jasmeet Kalsi",
+      "authorLocation": "Amritsar",
+      "date": "12 Aug 2026",
+      "overallRating": 4.8,
+      "foodRating": 5,
+      "ambienceRating": 4.4,
+      "valueRating": 4.9,
+      "cleanlinessRating": 4.3,
+      "experienceRating": 4.8,
+      "comment": "Proper midnight highway dhaba flavor. Dal makhani simmered on coal fires and crispy tandoori rotis with homemade white butter.",
+      "verificationType": "verified_visit"
+    }
+  ],
+  "local_reviews": [
+    {
+      "id": "lr-1",
+      "localId": "local-simran",
+      "authorName": "Kabir & Rhea Sen",
+      "authorCity": "Mumbai",
+      "date": "16 Sep 2026",
+      "overallRating": 5,
+      "knowledgeRating": 5,
+      "helpfulnessRating": 5,
+      "responsivenessRating": 5,
+      "recommendationQualityRating": 5,
+      "comment": "Simran completely transformed our weekend in Chandigarh. Instead of doing the standard tourist bus routine, she curated three private courtyard cafes and an evening date table at Virgin Courtyard that blew us away.",
+      "verificationType": "verified_consultation"
+    },
+    {
+      "id": "lr-2",
+      "localId": "local-simran",
+      "authorName": "David H.",
+      "authorCity": "London",
+      "date": "04 Sep 2026",
+      "overallRating": 4.8,
+      "knowledgeRating": 5,
+      "helpfulnessRating": 4.8,
+      "responsivenessRating": 4.8,
+      "recommendationQualityRating": 4.9,
+      "comment": "Super fast replies on WhatsApp! She recommended Pal Dhaba Sector 28 and guided me exactly what to order. Worth every rupee of the consultation fee.",
+      "verificationType": "verified_consultation"
+    },
+    {
+      "id": "lr-3",
+      "localId": "local-gurpreet",
+      "authorName": "Manpreet Singh Brar",
+      "authorCity": "Toronto",
+      "date": "11 Sep 2026",
+      "overallRating": 5,
+      "knowledgeRating": 5,
+      "helpfulnessRating": 5,
+      "responsivenessRating": 4.9,
+      "recommendationQualityRating": 5,
+      "comment": "Gurpreet’s knowledge of Patiala royal history is unmatched. He arranged direct access to an authentic Phulkari master artisan in Adalat Bazaar where we bought family heirlooms without tourist markups.",
+      "verificationType": "verified_consultation"
+    },
+    {
+      "id": "lr-4",
+      "localId": "local-harleen",
+      "authorName": "Siddharth V.",
+      "authorCity": "Ahmedabad",
+      "date": "09 Sep 2026",
+      "overallRating": 4.9,
+      "knowledgeRating": 5,
+      "helpfulnessRating": 4.8,
+      "responsivenessRating": 4.9,
+      "recommendationQualityRating": 4.9,
+      "comment": "Harleen helped me plan an architectural photography tour between Chandigarh Capitol Complex and Rajpura’s post-partition sites. Exceptional insights on Le Corbusier and Pierre Jeanneret.",
+      "verificationType": "verified_consultation"
+    },
+    {
+      "id": "lr-5",
+      "localId": "local-amanjit",
+      "authorName": "Navdeep Gill",
+      "authorCity": "Delhi",
+      "date": "18 Aug 2026",
+      "overallRating": 4.8,
+      "knowledgeRating": 4.9,
+      "helpfulnessRating": 4.9,
+      "responsivenessRating": 4.8,
+      "recommendationQualityRating": 4.8,
+      "comment": "Amanjit knows every dhaba cook between Rajpura and Patiala. He picked the exact spot for fresh sarson ka saag and early morning grain mandi auctions. Authentic rustic Punjab.",
+      "verificationType": "verified_consultation"
+    }
+  ]
+}
